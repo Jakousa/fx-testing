@@ -7,7 +7,7 @@ import javafx.stage.Stage;
 import org.junit.*;
 import static org.testfx.api.FxAssert.verifyThat;
 import org.testfx.framework.junit.ApplicationTest;
-import static org.testfx.matcher.base.NodeMatchers.hasText;
+import static org.testfx.matcher.control.TextInputControlMatchers.hasText;
 
 public class ExampleTest extends ApplicationTest {
 

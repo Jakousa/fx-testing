@@ -7,5 +7,4 @@
 .vscode/
 bin/
 build/
-gradle/
 nbproject/

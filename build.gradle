@@ -1,7 +1,16 @@
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+
 apply plugin: 'java'
 apply plugin: 'application'
 
 mainClassName = 'ohtu.Main'
+
+javafx {
+    version = '12'
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
 
 repositories {
     jcenter()
@@ -11,5 +20,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     testCompile "org.testfx:testfx-core:4.0.+"
     testCompile "org.testfx:testfx-junit:4.0.+"    
-    testCompile "org.testfx:openjfx-monocle:8u76-b04"
+    testRuntime "org.testfx:openjfx-monocle:jdk-11+26"
 }
