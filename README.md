@@ -8,7 +8,7 @@ Testit suoritetaan komennolla _gradle test_
 
 Tämän repositorion [master](https://github.com/mluukkai/fx-testing)-branchissa JavaFX-projektia testataan normaalin [TestFX](https://github.com/mluukkai/fx-testing/blob/master/src/test/java/ohtu/ExampleTest.java)-testin avulla. 
 
-Konfiguraatio toimii travisissa [![Build Status](https://travis-ci.org/mluukkai/fx-testing.svg?branch=master)](https://travis-ci.org/mluukkai/fx-testing)
+Konfiguraatio toimii Circlessä [![Build Status](https://travis-ci.org/mluukkai/fx-testing.svg?branch=master)](https://travis-ci.org/mluukkai/fx-testing)
 
 ## cucumber
 
