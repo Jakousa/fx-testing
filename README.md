@@ -1,8 +1,8 @@
 # Java FX -projektin testausta TestFX-kirjastolla
 
-Koodi suoritetaan komennolla _gradle run_
+Koodi suoritetaan komennolla _./gradlew run_
 
-Testit suoritetaan komennolla _gradle test_
+Testit suoritetaan komennolla _./gradlew test_
 
 ## testaaminen junitilla
 
@@ -14,4 +14,4 @@ Konfiguraatio toimii Circlessä [![Build Status](https://travis-ci.org/mluukkai/
 
 Branchissa [cucumber](https://github.com/mluukkai/fx-testing/tree/cucumber) projektia testataan Cucumberin ja TestFX:n yhdistelmällä. Yhdistelmä ei ole varsinaisesti vielä tuettu, mutta näyttää toimivan, jos cucumber-testien yhteyteen luodaan ennen cucumberin steppejä suoritettava [TestFX](https://github.com/mluukkai/fx-testing/blob/cucumber/src/test/java/ohtu/AaaTest.java)-testi. 
 
-Myös cucumber-testit toimivat travisissa [![Build Status](https://travis-ci.org/mluukkai/fx-testing.svg?branch=cucumber)](https://travis-ci.org/mluukkai/fx-testing)
+Myös cucumber-testit toimivat Circlessä [![Build Status](https://travis-ci.org/mluukkai/fx-testing.svg?branch=cucumber)](https://travis-ci.org/mluukkai/fx-testing)

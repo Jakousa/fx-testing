@@ -8,7 +8,7 @@ import javafx.scene.control.TextField;
 import static org.junit.Assert.*;
 import static org.testfx.api.FxAssert.verifyThat;
 import org.testfx.framework.junit.ApplicationTest;
-import static org.testfx.matcher.base.NodeMatchers.hasText;
+import static org.testfx.matcher.control.TextInputControlMatchers.hasText;
 
 public class Stepdefs extends ApplicationTest {
  
