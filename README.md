@@ -8,10 +8,10 @@ Testit suoritetaan komennolla _./gradlew test_
 
 Tämän repositorion [master](https://github.com/mluukkai/fx-testing)-branchissa JavaFX-projektia testataan normaalin [TestFX](https://github.com/mluukkai/fx-testing/blob/master/src/test/java/ohtu/ExampleTest.java)-testin avulla.
 
-Konfiguraatio toimii Circlessä [![CircleCI](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing.svg?style=svg)](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing)
+Konfiguraatio Circlessä [![CircleCI](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing.svg?style=svg)](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing)
 
 ## cucumber
 
 Branchissa [cucumber](https://github.com/mluukkai/fx-testing/tree/cucumber) projektia testataan Cucumberin ja TestFX:n yhdistelmällä.
 
-Myös cucumber-testit toimivat travisissa [![CircleCI](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing/tree/cucumber.svg?style=svg)](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing/tree/cucumber)
+Cucumber-testit circlessä [![CircleCI](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing/tree/cucumber.svg?style=svg)](https://circleci.com/gh/ohjelmistotuotanto-hy/fx-testing/tree/cucumber)
